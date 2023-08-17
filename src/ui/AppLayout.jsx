@@ -5,8 +5,10 @@ import Loader from "./Loader"
 
 const AppLayout = () => {
 const navigation = useNavigation()
-console.log("navigationInAppLayout==>",navigation);
 const isLoading = navigation.state === "loading"
+
+console.log("navigationInAppLayout==>",navigation);
+
 
   return (
     <div className="layout">
